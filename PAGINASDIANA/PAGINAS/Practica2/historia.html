@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Línea del Tiempo - Aplicaciones Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f3fa;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .contenedor {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            text-align: center;
+            color: #215b96;
+        }
+        .linea-tiempo {
+            position: relative;
+            margin: 20px 0;
+        }
+        .evento {
+            display: flex;
+            align-items: center;
+            background: #fff;
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #2980b9;
+        }
+        .evento img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-right: 15px;
+        }
+        .contenido-evento {
+            flex: 1;
+        }
+        .evento h3 {
+            color: #2980b9;
+            margin-bottom: 5px;
+        }
+        .evento p {
+            margin: 5px 0;
+        }
+        .evento b {
+            color: #555;
+        }
+        .enlace-regresar {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #215b96;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <h2>Línea del Tiempo - Evolución de las Aplicaciones Web</h2>
+
+        <div class="linea-tiempo">
+            <div class="evento">
+                <img src="H1.jpg" alt="Computadora antigua">
+                <div class="contenido-evento">
+                    <h3>1945 - 1970: Origen de Internet</h3>
+                    <p>El desarrollo de redes informáticas comenzó con la creación de ARPANET.</p>
+                    <b>1969:</b> <p>Se establece ARPANET, la primera red de computadoras basada en conmutación de paquetes.</p>
+                </div>
+            </div>
+
+            <div class="evento">
+                <img src="H2.jpg" alt="Microprocesador">
+                <div class="contenido-evento">
+                    <h3>1980 - 1990: TCP/IP y el nacimiento de la Web</h3>
+                    <p>El protocolo TCP/IP se adopta como estándar de Internet.</p>
+                    <b>1989:</b> <p>Tim Berners-Lee propone la World Wide Web (WWW).</p>
+                    <b>1991:</b> <p>Primer sitio web en línea.</p>
+                </div>
+            </div>
+
+            <div class="evento">
+                <img src="H3.png" alt="WEB 1.0">
+                <div class="contenido-evento">
+                    <h3>1993 - 2000: Web 1.0 (Sitios Estáticos)</h3>
+                    <p>Aparición de los primeros navegadores y páginas HTML estáticas.</p>
+                    <b>1993:</b> <p>Se lanza Mosaic, el primer navegador gráfico.</p>
+                    <b>1995:</b> <p>JavaScript y CSS permiten mayor interactividad.</p>
+                </div>
+            </div>
+
+            <div class="evento">
+                <img src="H4.jpg" alt="WEB 2.0">
+                <div class="contenido-evento">
+                    <h3>2004 - 2010: Web 2.0 (Interactividad y Redes Sociales)</h3>
+                    <p>Se desarrollan aplicaciones dinámicas, redes sociales y contenido generado por usuarios.</p>
+                    <b>2004:</b> <p>Facebook y YouTube revolucionan la web.</p>
+                    <b>2005:</b> <p>Uso de AJAX para sitios interactivos.</p>
+                </div>
+            </div>
+
+            <div class="evento">
+                <img src="H5.jpg" alt="WEB 3 Y 4">
+                <div class="contenido-evento">
+                    <h3>2010 - Presente: Web 3.0 y 4.0</h3>
+                    <p>La inteligencia artificial, blockchain y el metaverso definen la nueva era web.</p>
+                    <b>2014:</b> <p>HTML5 es adoptado como estándar.</p>
+                    <b>2020 en adelante:</b> <p>Expansión de la Web Inteligente con IA, asistentes virtuales y computación en la nube.</p>
+                </div>
+            </div>
+        </div>
+        <a href="index.html" class="enlace-regresar">Regresar</a>
+    </div>
+</body>
+</html>

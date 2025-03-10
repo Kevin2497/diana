@@ -1,0 +1,42 @@
+nav { 
+    margin-top: 10px;
+    margin-bottom: 20px; 
+    padding: 20px; 
+    background: #d5e5fa; 
+} 
+nav a { 
+    margin-right: 15px; 
+    text-decoration: none; 
+    text-align: center;
+    color: #2980B9; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+} 
+
+footer{
+    margin-top: 10px;
+    margin-bottom: 20px; 
+    padding: 10px; 
+    background: #d5e5fa; 
+}
+
+footer p { 
+    margin-right: 15px; 
+    text-decoration: none; 
+    text-align: center;
+    color: #2980B9; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+} 
+
+table{
+    width: 50%; /* Ancho de la tabla */
+    border-collapse: separate; /* Permite el uso de cellspacing */
+    border-spacing: 0px; /* Equivalente a cellspacing */
+    border: 1px solid #000; /* Borde de la tabla */
+}
+
+table td, table th {
+    padding: 10px; /* Equivalente a cellpadding */
+  }
+
